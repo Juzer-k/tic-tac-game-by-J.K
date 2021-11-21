@@ -18,6 +18,14 @@ nav{
 nav ul{
     list-style-type: none;
 }
+h1{
+    background-color: black;
+    color:white;
+    font-size: 10vm;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-align: center;
+}
 
 .gamecontainer{
 
@@ -42,7 +50,7 @@ nav ul{
 }
 
 .box:hover{
- background-color: violet;
+ background-color: rgb(187, 187, 187);
 
 }
 .gameinfo{
