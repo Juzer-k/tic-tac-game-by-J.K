@@ -23,6 +23,8 @@ h1{
     color:white;
     font-size: 10vm;
     text-transform: uppercase;
+    diplay:"flex";
+    flex-warp:warp;
     word-spacing: 5px;
     text-align: center;
 }
