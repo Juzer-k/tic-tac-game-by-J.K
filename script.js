@@ -53,11 +53,12 @@ Array.from(boxes).forEach(element =>{
     })
 })
 
-// add on click
+// add on click for reset button
 reset.addEventListener('click',()=>{
     let boxtext= document.querySelectorAll('.boxtext')
     Array.from(boxtext).forEach(element => {
-        element.innerText= ""
+        element.innerText= "";
+         document.getElementsByClassName('info')[0].innerText=" Turn for =>   " + turn;
         
     });
 })
